@@ -17,6 +17,34 @@ a:active,a:hover,a:link,a:visited{
     text-decoration:none;
 }
 
+table {
+    border-collapse: collapse; 
+    background: #e6e6e6;
+    border-radius:6px;
+    overflow:hidden;
+    max-width:1000px; 
+    width:100%;
+}
+    
+td,th{
+    padding-left:8px;
+}
+
+thead tr { 
+    height:60px;
+    background:gray;
+    font-size:16px;
+}
+
+tbody tr {
+    height:48px;
+}
+    
+td,th {
+    text-align:left;
+}
+
+
 @media print {
     body {
         max-width: none

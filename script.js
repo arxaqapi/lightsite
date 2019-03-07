@@ -1,5 +1,5 @@
 function toggle(elementId) {
-	var ele = document.getElementById(elementId);
+	let ele = document.getElementById(elementId);
 	if(ele.style.display == "block") {
     		ele.style.display = "none";
   	}

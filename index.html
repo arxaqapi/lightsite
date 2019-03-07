@@ -4,70 +4,29 @@
 	<html lang="en">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="main.css"/>
 	<script type="text/javascript" src="script.js"></script>
 
 	<title>Unreaden</title>
 	<style>
-		body {
-			margin: 1em auto;
-			max-width: 40em;
-			padding: 0 .62em;
-			font: 1.2em/1.62 sans-serif;
-			background-color: #e6e6e6;
-		}
-
-		h1,
-		h2,
-		h3 {
-			line-height: 1.2;
-		}
-
-		@media print {
-			body {
-				max-width: none
-			}
-		}
+		
 	</style>
 </head>
 
 <body>
-	<h1>Unreaden</h1>
-	<p>Young artist making some noise.</p>
-	<h2>My Noise</h2>
-	<iframe src="https://open.spotify.com/embed/artist/2J26p6h2fX82IWdMwTWDrH" width="300" height="380" frameborder="0"
-	 allowtransparency="true" allow="encrypted-media"></iframe>
-	<iframe src="https://open.spotify.com/embed/track/4jkRHCL8X00i7i2BUQO88Y" width="300" height="380" frameborder="0"
-	 allowtransparency="true" allow="encrypted-media"></iframe>
-
-
-	<h1>ArxaQapi</h1>
-	<p>Same person, different name.</p>
-	<p>CS student.</p>
+	<a href="javascript:toggle('toggleDivUnreaden')"><h1>Unreaden</h1></a>
+	<div id="toggleDivUnreaden" style="display:block">
+		<p>Young artist making some noise.	</p>
+		<h2>My Noise</h2>
+		<iframe src="https://open.spotify.com/embed/artist/2J26p6h2fX82IWdMwTWDrH" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+		<iframe src="https://open.spotify.com/embed/track/4jkRHCL8X00i7i2BUQO88Y" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+	</div>
+	<a href="javascript:toggle('toggleDivArxaQapi')"><h1>ArxaQapi</h1></a>
+	<div id="toggleDivArxaQapi" class="display:block">
+		<p>Same person, different name.</p>
+		<p>CS student.</p>
+	</div>
 
 	<p><a href="links.html">Links</a></p>
 </body>
-
-
-<!-- 
-	<div class="tree">
-		<div>
-			BLA BLA
-		</div>	
-		<a id="displayText" href="javascript:toggle('toggleText');">show</a> <== click Here
-		<div onclick="javascript:toggle('toggleText');">
-			<h1>Hello!</h1>
-			<div id="toggleText" style="display:none; border-width:2px; border-style:solid">Hidden data...</div>
-		</div>
-		<div>
-			BLA
-		</div>	
-		<div>
-			BLA BLA 
-		</div>	
-		<div>
-			BLA BLA 123
-		</div>
-		<a id="displayText" href="javascript:toggle('toggleText2');">show</a> <== click Here
-		<div id="toggleText2" style="display: none" href="javascript:toggle();"><h1>Hide!</h1></div>	
-	</div>
--->

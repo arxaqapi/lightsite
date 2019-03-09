@@ -1,9 +1,7 @@
-# Website
+# Lightside
 ## Personnal website
 
-This website contains a list of usefull links directly related to Computer Science.
+This website contains a list of usefull links directly related to Computer Science and introduces me.
 
-### TODO
-* make collapsable divs on link page
 
 *inspired by the [bestmotherfucking.website](https://bestmotherfucking.website)*

@@ -5,7 +5,7 @@ This website contains a list of usefull links directly related to Computer Scien
 
 ### Github pages
 the site has been pushed to github pages
-link: [Github pages(hhttps://arxaqapi.github.io/lightsite/ "Unreaden on github pages")
+link: [Github pages](https://arxaqapi.github.io/lightsite/ "Unreaden on github pages")
 
 
 *inspired by the [bestmotherfucking.website](https://bestmotherfucking.website)*

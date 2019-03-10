@@ -1,4 +1,4 @@
-# Lightside
+# Lightsite
 ## Personnal website
 
 This website contains a list of usefull links directly related to Computer Science and introduces me.

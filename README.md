@@ -3,5 +3,8 @@
 
 This website contains a list of usefull links directly related to Computer Science and introduces me.
 
+### Github pages
+the site has been pushed to github pages
+link: 
 
 *inspired by the [bestmotherfucking.website](https://bestmotherfucking.website)*

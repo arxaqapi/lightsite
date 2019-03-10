@@ -4,8 +4,7 @@
 This website contains a list of usefull links directly related to Computer Science and introduces me.
 
 ### Github pages
-the site has been pushed to github pages
-link: [Github pages](https://arxaqapi.github.io/lightsite/ "Unreaden on github pages")
+The site is now live at [unreaden.com](unreaden.com)
 
 
 *inspired by the [bestmotherfucking.website](https://bestmotherfucking.website)*

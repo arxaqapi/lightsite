@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+	<html lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link id="stylesheet" rel="stylesheet" type="text/css" href="css/main.css"/>
+
+	<script src="https://unpkg.com/github-api/dist/GitHub.bundle.min.js"></script>
+	<script type="text/javascript" src="javascript/script.js"></script>
+	<script type="text/javascript" src="javascript/githubQuery.js"></script>
+
+	<title>Blog:Unreaden</title>
+</head>
+<body>
+	<div id="bottom">
+		<pre><a href="index.html">/Home Page</a>    <a href="links.html">/Links</a>    <a href="blog.html">/Blog</a></pre>
+	</div>
+	
+	<a href="javascript:toggle('toggleDivBlog')">
+		<h1>Blog:Unreaden<span id="toBlinkUn">_</span></h1>
+	</a>
+	<div id="toggleDivBlog" style="display:block">
+		<a href="javascript:toggle('bPost11032019')"><h3>11/03/2019</h3></a>
+		<div id="bPost11032019" style="display:none">
+			<p><strong>How to copy the inside of a folder in linux:</strong></p>
+			<ul>
+				<li>Using rsync: (fav) <br>
+					<i>rsync -r source/ destination</i><br>
+					do not forget the "/" after source to not copy the folder containg the files
+				</li>
+				<li>Using cp: <br><i>cp -a /source/. /dest/ </i><br>The `.` allows to copy all files and folders including hidden ones</li>
+			</ul>
+		</div>
+	</div>
+	<div id="bottom">
+			<pre><a href="index.html">/Home Page</a>    <a href="links.html">/Links</a>    <a href="blog.html">/Blog</a></pre>
+	</div>
+</body>

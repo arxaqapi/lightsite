@@ -19,6 +19,7 @@ window.addEventListener("load", function() {
 }, false);
 
 var counter = 0;
+
 function changeMode() {
 	// awfull theming to dark mode
 	let root = document.documentElement.style;
